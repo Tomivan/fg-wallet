@@ -1,0 +1,11 @@
+.pin-top{
+    text-align: center;
+}
+.pin-form{
+    margin-left: 35%;
+}
+.pin-form input{
+    height: 7vh;
+    width: 7vw;
+    border-radius: 10px;
+}

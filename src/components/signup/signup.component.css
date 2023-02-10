@@ -1,0 +1,34 @@
+.signup-page h1, sub, .route{
+    text-align: center;
+}
+.signup-page{
+    background: #ffffff;
+    width: 30%;
+    margin: 5% 0 0 35%;
+    padding: 2em;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+}
+.privacy{
+    display: flex;
+    font-size: 10px;
+}
+
+.login-link{
+    text-decoration: none;
+    color: #bbbbbb;
+    margin-left: 2%;
+}
+.signup-button{
+    height: 5vh;
+    width: 30vw;
+    border: none;
+    color: #ffffff;
+    background: #1f28eb;
+    border-radius: 5px;
+}

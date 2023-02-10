@@ -1,0 +1,53 @@
+.login-top{
+    text-align: center;
+}
+.login-page{
+    background: #ffffff;
+    width: 30%;
+    margin-left: 35%;
+    padding: 2em;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    /* width: 30vw; */
+}
+label{
+    margin-bottom: 1%;
+}
+input{
+    height: 5vh;
+    border: 1px solid #0000001e;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+input::placeholder {
+    padding-left: 2em;
+    color: #0000001e;
+}
+.forgot-password{
+    display: flex;
+    justify-content: space-between;
+}
+.blue{
+    color: #1f28eb;
+}
+.remember-me{
+    display: flex;
+}
+.checkbox{
+    margin-top: 10%;
+}
+.signup-link{
+    text-decoration: none;
+    color: #bbbbbb;
+    margin-left: 2%;
+}
+.login-button{
+    height: 5vh;
+    width: 30vw;
+    border: none;
+    color: #ffffff;
+    background: #1f28eb;
+    border-radius: 5px;
+}

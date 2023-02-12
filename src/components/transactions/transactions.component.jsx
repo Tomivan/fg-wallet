@@ -1,5 +1,5 @@
 import React from 'react';
-import Empty from '../../assets/images/transaction.svg'
+import Empty from '../../assets/images/no-transaction.svg'
 import './transactions.component.css';
 
 const Transactions = () => {

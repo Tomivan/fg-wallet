@@ -1,11 +1,16 @@
 import React from 'react';
-import './topbar.component.jsx';
+import Notification from '../../assets/images/notification.svg';
+import Profile from '../../assets/images/profile.svg';
+import './topbar.component.css';
 
 const Topbar = () => {
     return(
         <div className='topbar'>
             <button className='add-money'>Add Money</button>
-            <div className=''></div>
+            <div className='topbar-right'>
+                <img src={Notification} alt='' className='topbar-icon'/>
+                <img src={Profile} alt='' className='topbar-icon profile' />
+            </div>
         </div>
     )
 }

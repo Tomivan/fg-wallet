@@ -2,10 +2,19 @@
     text-align: center;
 }
 .pin-form{
-    margin-left: 35%;
+    margin-left: 40%;
 }
 .pin-form input{
-    height: 7vh;
-    width: 7vw;
+    height: 6vh;
+    width: 3vw;
+    margin-right: 2%;
     border-radius: 10px;
+}
+.done{
+    height: 5vh;
+    width: 30vw;
+    border: none;
+    color: #ffffff;
+    background: #1f28eb;
+    border-radius: 5px;
 }

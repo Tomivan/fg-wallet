@@ -1,0 +1,22 @@
+.topbar{
+    height: 5vh;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.add-money{
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #1f28eb;
+}
+.topbar-icon{
+    height: 4vh;
+    padding: 0.5em;
+}
+.profile{
+    border-radius: 50%;
+}

@@ -6,11 +6,12 @@
     width: 30%;
     margin-left: 35%;
     padding: 2em;
+    position: absolute;
+    top: 15%;
 }
 .login-form{
     display: flex;
     flex-direction: column;
-    /* width: 30vw; */
 }
 label{
     margin-bottom: 1%;

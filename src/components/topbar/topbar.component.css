@@ -3,7 +3,8 @@
     padding: 1em;
     display: flex;
     justify-content: space-between;
-    margin-left: 10%;
+    margin-left: 13%;
+    background: #ffffff;
 }
 .add-money{
     height: 5vh;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router } from "@reach/router";
+import { Router } from "@gatsbyjs/reach-router";
 import Dashboard from './dashboard';
 import Login from './login';
 import SendLocal from './send-local';

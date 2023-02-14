@@ -3,14 +3,19 @@ import Topbar from '../components/topbar/topbar.component';
 import Sidebar from '../components/sidebar/sidebar.component';
 import Statistics from '../components/statistics/statistics.component';
 import Transaction from '../components/transaction/transaction.component';
+import DashboardTop from '../components/dashboard-top/dashboard-top.component';
+import './dashboard.css';
 
 const Dashboard = () => {
     return(
-        <div>
+        <div className='dashboard'>
             <Topbar />
             <Sidebar />
-            <Statistics />
-            <Transaction />
+            <div className='dashboard-right'>
+                <DashboardTop />
+                <Statistics />
+                <Transaction />
+            </div>
         </div>
     )
 }

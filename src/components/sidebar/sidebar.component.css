@@ -1,9 +1,11 @@
 .sidebar{
-    height: 100vh;
+    height: 94vh;
     width: 10%;
     padding: 1em;
     display: flex;
     flex-direction: column;
+    background: #ffffff;
+    margin-top: -4.7%;
 }
 .sidebar-link{
     color: #83879b;

@@ -1,0 +1,10 @@
+.dashboard-right{
+    width: 85%;
+    margin: -42% 0 0 12%;
+    padding: 1em;
+    overflow-y: scroll;
+    height: 85vh;
+}
+.dashboard{
+    background: #f5f5f5;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from '@gatsbyjs/reach-router';
 import './transaction.component.css';
 
 const Transaction = () => {
@@ -7,7 +8,7 @@ const Transaction = () => {
             <div className='left'>
                 <div className='top'>
                     <h2>Transaction</h2>
-                    <button className='view-all'>View all</button>
+                    <button className='view-all'><Link to='/transaction' className='transaction-link'>View all</Link></button>
                 </div>
                 <table>
                     <thead>
@@ -20,10 +21,10 @@ const Transaction = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>TRUD9393BJEKFN</td>
+                            <td>19 July  4:30 PM</td>
+                            <td>NGN 3,041,730</td>
+                            <td><button className='success'>Success</button></td>
                         </tr>
                     </tbody>
                 </table>
@@ -31,16 +32,20 @@ const Transaction = () => {
             <div className='right'>
                 <h2>Quick Transaction</h2>
                 <div className='action'>
-                    <button className='add-money'>Add money</button>
+                    <button className='money'>Add money</button>
                     <button className='withdraw'>Withdraw</button>
                 </div>
-                <label>Amount</label>
-                <select>
-                    <options>Main</options>
-                </select>
-                <label>Amount</label>
-                <input type='text' placeholder='Enter Amount' />
-                <button className='add'>Add</button>
+                <div className='amount'>
+                    <label>Amount</label>
+                    <select>
+                        <option>Main</option>
+                    </select>
+                </div>
+                <div className='amount'>
+                    <label>Amount</label>
+                    <input type='text' placeholder='Enter Amount' />
+                    <button className='add'>Add</button>
+                </div>
             </div>
         </div>
     )

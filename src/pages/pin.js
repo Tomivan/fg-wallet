@@ -1,9 +1,9 @@
 import React from 'react';
 import Pin from '../components/pin/pin.component';
-
+import './pin.css'
 const PinPage = () => {
     return(
-        <div>
+        <div className='pin-page'>
             <Pin />
         </div>
     )

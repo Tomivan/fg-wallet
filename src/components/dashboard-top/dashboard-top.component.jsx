@@ -21,3 +21,5 @@ const DashboardTop = () => {
         </div>
     )
 }
+
+export default DashboardTop;

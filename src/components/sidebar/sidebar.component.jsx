@@ -6,7 +6,7 @@ import Beneficiary from '../../assets/images/beneficiary.svg';
 import Transaction from '../../assets/images/transaction.svg';
 import Help from '../../assets/images/help.svg';
 import Setting from '../../assets/images/setting.svg';
-import { Link } from '@reach/router';
+import { Link } from '@gatsbyjs/reach-router';
 import './sidebar.component.css';
 
 const Sidebar = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router } from "@gatsbyjs/reach-router";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from './dashboard';
 import Login from './login';
 import SendLocal from './send-local';
@@ -10,12 +10,14 @@ import PinPage from './pin';
 const Pages = () => {
     return(
     <Router className='pages'>
-        <Login exact path="/"/>
-        <Signup path="/signup"/>
-        <PinPage path ="/pin" />
-        <Dashboard path="/dashboard" />
-        <SendLocal path="/send-local" />
-        <TransactionPage path="/transaction" />
+        <Routes>
+        <Route exact path="/" element={<Login />}/>
+        <Route path="/signup" element={<Signup />}/>
+        <Route path ="/pin" element={<PinPage />}/>
+        <Route path="/dashboard" element={<Dashboard />}/>
+        <Route path="/send-local" element={<SendLocal />}/>
+        <Route path="/transaction" element={<TransactionPage />}/>
+        </Routes>
     </Router>
     )
 }

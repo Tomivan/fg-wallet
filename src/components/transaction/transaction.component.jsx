@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@gatsbyjs/reach-router';
+import { Link } from 'react-router-dom';
 import './transaction.component.css';
 
 const Transaction = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigate } from '@gatsbyjs/reach-router';
+import { Navigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { usePinInput } from 'react-pin-input-hook'
 import "./pin.component.css"
@@ -29,7 +29,7 @@ const Pin = () => {
             .then((data) => {
                 if(data.success === true){
                     alert('Your profile has been created, you can log in now')
-                    navigate(`/`);
+                    Navigate(`/`);
                 }
             })
         }

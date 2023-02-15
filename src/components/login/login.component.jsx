@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { Link,navigate } from '@gatsbyjs/reach-router';
+import { Link, Navigate } from 'react-router-dom';
 import './login.component.css';
 
 const LoginForm = () => {
@@ -21,7 +21,7 @@ const LoginForm = () => {
                 response.json()))
             .then((data) => {
                 if(data.success === true){
-                    navigate(`/dashboard`);
+                    Navigate(`/dashboard`);
                 } else {
                     return alert("Invalid email/password");
                 }

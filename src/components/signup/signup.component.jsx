@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { Link, navigate } from '@gatsbyjs/reach-router';
+import { Link, Navigate } from 'react-router-dom';
 import './signup.component.css';
 
 const SignupForm = () => {
@@ -25,7 +25,7 @@ const SignupForm = () => {
                 response.json()))
             .then((data) => {
                 if(data.success === true){
-                    navigate(`/pin`);
+                    Navigate(`/pin`);
                 } 
             })
         }

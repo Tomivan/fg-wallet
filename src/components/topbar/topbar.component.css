@@ -6,6 +6,9 @@
     margin-left: 13%;
     background: #ffffff;
 }
+.hamburger{
+    display: none;
+}
 .add-money{
     height: 5vh;
     width: 10vw;
@@ -20,4 +23,17 @@
 }
 .profile{
     border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .topbar{
+        margin-left: 0;
+    }
+    .add-money{
+        width: 30vw;
+    }
+    .hamburger{
+        display: block;
+        width: 10%;
+    }
 }

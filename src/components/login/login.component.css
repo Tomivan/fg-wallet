@@ -52,3 +52,13 @@ input::placeholder {
     background: #1f28eb;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .login-page{
+        margin-left: 5%;
+        width: 75%;
+    }
+    .login-button{
+        width: 75vw;
+    }
+}

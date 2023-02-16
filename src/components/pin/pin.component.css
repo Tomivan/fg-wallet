@@ -26,3 +26,16 @@
     background: #1f28eb;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .pin{
+        left: 5%;
+        width: 80%;
+    }
+    .done{
+        width: 75vw;
+    }
+    .pin-form input{
+        width: 10vw;
+    }
+}

@@ -80,3 +80,21 @@ select{
     border: none;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .transaction{
+        flex-direction: column;
+        width: 90vw;
+    }
+    .left{
+        margin-bottom: 5%;
+        overflow-x: scroll;
+    }
+    .view-all{
+        width: 20vw;
+        height: 5vh;
+    }
+    .money, select, .success{
+        width: 30vw;
+    }
+}

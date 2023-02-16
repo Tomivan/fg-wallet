@@ -6,6 +6,11 @@ import './topbar.component.css';
 const Topbar = () => {
     return(
         <div className='topbar'>
+            <div className='hamburger'>
+                <hr />
+                <hr />
+                <hr />
+            </div>
             <button className='add-money'>Add Money</button>
             <div className='topbar-right'>
                 <img src={Notification} alt='' className='topbar-icon'/>

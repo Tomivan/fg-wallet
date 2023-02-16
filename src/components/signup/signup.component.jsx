@@ -53,7 +53,7 @@ const SignupForm = () => {
                 <input type="password" placeholder='*********' {...register("password",{required: true})} required/>
                 <div className="privacy">
                     <input type="checkbox" required />
-                    <p>I consent to the collection and processing of my personal data in line with the data<br /> 
+                    <p>I consent to the collection and processing of my personal data in line with the data
                     regulations as described in Persent’s Privacy Policy</p>
                 </div>
                 <button className='signup-button'>Sign Up</button>

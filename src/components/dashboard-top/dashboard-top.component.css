@@ -24,3 +24,8 @@
     border-right: 1px solid #f5f5f5;
     width: 12vw;
 }
+@media screen and (max-width: 768px) {
+    .savings, .available{
+        width: 30vw;
+    }
+}

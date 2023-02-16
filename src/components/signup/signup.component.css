@@ -34,3 +34,16 @@
     background: #1f28eb;
     border-radius: 5px;
 }
+@media screen and (max-width: 768px) {
+    .signup-page{
+        margin-left: 5%;
+        width: 75%;
+    }
+    .signup-button{
+        width: 75vw;
+    }
+    .firstname input, .lastname input{
+        width: 35vw;
+        margin-right: 5%;
+    }
+}
